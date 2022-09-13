@@ -7,19 +7,16 @@
  *Return: Always(0).
  */
 
-void print_alphabet_x10(void)
+int print_alphabet_x10(void)
 {
-	int alphabet_count = 0;
 
-	while (alphabet_count < 10)
+	write (alphabet_count x 10)
 	{
-								char ch = 'a';
-								while (ch <= 'z')
-								{
+		print_alphabet_x10();
 		_putchar(ch);
 		ch++;
-								}
 		alphabet_count++;
 		_putchar('\n');
+		return (0);
 	}
 }
