@@ -5,15 +5,12 @@
  * return: void
  *
  */
-void print-alphabet(void)
+void print_alphabet(void)
 {
 	int q;
 	for (q=a; q<=z; q++);
-
 	{
 		_putchar(q);
 	}
 	putchar('\n');
 }
-
-	
