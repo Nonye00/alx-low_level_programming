@@ -1,14 +1,12 @@
 #include "main.h"
-
 /**
- * main - prints _putcher followed by a new line
+ * main - prints putchar
  *
  * return: always 0
  *
  */
-
 int main (void)
 {
-	prints ("putcher, \n");
+	print ("putchar, \n");
 	return (0);
 }
