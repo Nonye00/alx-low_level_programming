@@ -4,10 +4,13 @@
  *
  * return: void
  */
+
 void print_alphabet(void)
 {
 	int q;
+
 	for (q='a'; q<='z'; q++)
+
 	{
 		_putchar(q);
 	}
