@@ -3,6 +3,8 @@
 /**
  * main - entry
  *
+ *Description: using the main function
+ *
  *return:0
  */
 int main(void)
