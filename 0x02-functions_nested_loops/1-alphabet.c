@@ -1,7 +1,6 @@
 #include "main.h"
 /**
- * main - entry point
- * Description: print_alphabet a-z
+ * main : print_alphabet a-z
  * return: 0
  */
 void print_alphabet(void)
