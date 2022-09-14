@@ -1,15 +1,15 @@
 #include "main.h"
+
 /**
- * _islower - function to check for lowercase letters
- * @q: this is the int for the function
- * return:0
+ * test_islower - Test the _islower function
+ *
+ * @q: Number to pass to _islower function
  */
-int _islower(int q)
+void test_islower(int q)
 {
-	if (q >= 'a' && q<= 'z')
-	{
-		return (1);
-	}
-	else
-		return (0);
+		int r;
+
+			r = _islower(q);
+			_putchar(r + '0');
+			_putchar('\n');
 }
