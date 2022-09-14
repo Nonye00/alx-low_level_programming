@@ -4,10 +4,11 @@
  * *@q: character to pass the islower function
  * *Return: return 0 or 1
  * */
-int _islower(int q)
+void _islower(int q)
 {
 	if (q >= 'a' && q <= 'z')
 		return (1);
 
 	return (0);
 }
+
