@@ -1,17 +1,21 @@
-#include "../main.h"
+#include "main.h"
+#include <ctype.h>
 
 /**
-  * main - check the code for ALX School students.
-  *
-  * Return: Always 0 (Success)
- */
+ * _isupper - function that checks for alphabetic character
+ * @c: return char type
+ * Return: return 0 on success and 1 on fail
+*/
 
-int main(void)
+int _isupper(int c)
 {
-	char c;
-	c = 'A';
-	printf("%c: %d\n", c, _isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
-	return (0);
+	int i = isupper(c);
+	if (i > 0)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
