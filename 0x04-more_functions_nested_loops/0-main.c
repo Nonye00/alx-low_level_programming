@@ -1,21 +1,17 @@
 #include "main.h"
-#include <ctype.h>
+#include <stdio.h>
 
 /**
- * _isupper - function that checks for alphabetic character
- * @c: return char type
- * Return: return 0 on success and 1 on fail
+  * main - check the code.
+  *
+  * Return: Always 0.
 */
-
-int _isupper(int c)
+int main(void)
 {
-	int i = isupper(c);
-	if (i > 0)
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+    char c;
+    c = 'A';
+    printf("%c: %d\n", c, _isupper(c));
+    c = 'a';
+    printf("%c: %d\n", c, _isupper(c));
+    return (0);
 }
