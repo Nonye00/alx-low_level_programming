@@ -9,17 +9,17 @@
 int main(void)
 {
 	unsigned long f1 = 1, f2 = 2, tmp, mx = 100000000, f1o = 0, f2o = 0, tmpo = 0;
-	short int i = 1, initial0s;
+	short int i = 1, initials;
 
 	while (i <= 98)
 	{
 		if (f1o > 0)
 		printf("%lu", f1o);
-		initial0s = numLength(mx) - 1 - numLength(f1);
-		while (f1o > 0 && initial0s > 0)
+		initials = numLength(mx) - 1 - numLength(f1);
+		while (f1o > 0 && initials > 0)
 		{
 			printf("%i", 0);
-			initial0s--;
+			initials--;
 		}
 		printf("%lu", f1);
 		tmp = (f1 + f2) % mx;
