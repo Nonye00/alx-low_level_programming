@@ -21,7 +21,7 @@ int main(void)
 			printf("%i", 0);
 			initial0s--;
 		}
-		rintf("%lu", f1);
+		printf("%lu", f1);
 		mp = (f1 + f2) % mx;
 		mpo = f1o + f2o + (f1 + f2) / mx;
 		f1 = f2;
