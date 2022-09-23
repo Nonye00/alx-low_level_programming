@@ -2,7 +2,7 @@
 
 /**
   * _strcmp - Compares pointers to two strings.
-  * @s1: pointer to the first string 
+  * @s1: pointer to the first string
   * @s2: pointer to the second string
   * Return: the negative difference of the first unmatched characters.
 */
